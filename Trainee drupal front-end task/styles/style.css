@@ -1,0 +1,62 @@
+@import url(vars.scss);
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--main-font-color);
+  font-family: var(--main-text-font);
+}
+body .first_slide, body .second_slide, body .third_slide {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .first_slide {
+  background: url(../images/first_slide_bg.png);
+}
+body .second_slide {
+  background: url(../images/second_slide_bg.png);
+}
+body .third_slide {
+  background: url(../images/third_slide_bg.png);
+}
+body .slide {
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+  margin: 0;
+}
+body .slide .slide_first_heading, body .slide .slide_second_heading {
+  text-transform: uppercase;
+}
+body .slide .slide_first_heading {
+  font-size: 28px;
+  margin: 0;
+}
+body .slide .slide_second_heading {
+  font-family: var(--title-text-font);
+  font-size: 120px;
+  margin: 0;
+}
+body .slide .slide_description {
+  width: 515px;
+  color: var(--description-text-color);
+  font-size: 20px;
+  margin-top: 65px;
+}
+body .slide .slide_link {
+  color: var(--main-text-color);
+  font-family: var(--main-text-font);
+  font-size: 24px;
+  position: relative;
+}
+body .next_button {
+  position: fixed;
+  left: 103px;
+  bottom: 75px;
+  cursor: pointer;
+}
+body .previous_button {
+  position: fixed;
+  right: 103px;
+  bottom: 75px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

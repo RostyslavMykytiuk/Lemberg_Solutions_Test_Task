@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+  div.slide {
+    padding: 30vh 50px;
+  }
+  div.slide h3.slide_first_heading {
+    font-size: 14px;
+  }
+  div.slide h1.slide_second_heading {
+    font-size: 60px;
+  }
+  div.slide p.slide_description {
+    font-size: 10px;
+    width: 70%;
+  }
+  div.slide a.slide_link {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=mobile.css.map */
